@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #fff8f0; /* creamy background */
+    color: #555; /* soft text color */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* soft shadow for depth */
+    border-bottom: 1px solid #f0e6dc; /* subtle border */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #333; /* gentle but readable */
+    letter-spacing: 1px;
+}
+
+nav .links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #555; /* soft gray */
+    font-size: 24px;
+    font-weight: 500;
+    transition: all 0.8s ease-in-out;
+    padding: 20px 50px;
+    border-radius: 8px; /* smooth rounded edges */
+}
+
+nav .links a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #ffb88c; /* soft accent */
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+nav .links a:hover {
+      padding: 20px 50px;
+    color: #1c1c1c; /* soft coral hover */
+     background-color: #f0e6dc;
+}
+
+nav .links a:hover::before {
+    width: 100%;
+}

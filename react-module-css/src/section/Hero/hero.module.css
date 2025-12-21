@@ -1,0 +1,23 @@
+.hero{
+    background: url('https://i.pinimg.com/1200x/f7/85/89/f78589502500d27e522fa4f620c0c59e.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.hero h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* subtle shadow for readability */
+}
+.hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* subtle shadow for readability */
+}

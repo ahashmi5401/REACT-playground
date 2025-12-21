@@ -1,0 +1,20 @@
+.services {
+  padding: 60px 20px;
+  background-color: #fff8f0; /* creamy background */
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.services h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* ensures responsiveness on smaller screens */
+}
