@@ -1,16 +1,28 @@
-# React + Vite
+# React Tailwind Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3.2-green)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a **frontend React application** styled with **Tailwind CSS**. It demonstrates a **clean, modular UI** using **small reusable components**, **props**, and **destructuring**.  
 
-## React Compiler
+The project follows the **Atomic Design methodology**, organizing components into **Atoms, Molecules, Organisms, and Sections** for better maintainability and scalability.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The main UI features **horizontally scrollable cards** with high-quality images, numeric headings, descriptive text, and buttons with dynamic background colors. Scrollbars are hidden for a polished look, and smooth horizontal scrolling improves user experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- **Small Reusable Components**: Each UI element is modular and easy to maintain.
+- **Props and Destructuring**: Clean data passing and component communication.
+- **Atomic Design Folder Structure**: Components organized as Atoms, Molecules, Organisms, and Sections.
+- **Tailwind CSS**: Utility-first CSS for fast and responsive design.
+- **Horizontal Scrollable Cards**: Smooth scroll with hidden scrollbar.
+- **Dynamic Button Colors**: Button background color depends on the card data.
+- **Data-Driven UI**: Cards generated dynamically from a central data object.
+- **Responsive Design**: Works well on desktop, tablet, and mobile screens.
+- **Easy to Extend**: Add new cards or components without affecting existing ones.
+
+---
